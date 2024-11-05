@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    height: 5rem;
+    background-color: rgb(255, 140, 25);
+    border-radius: 0 0 20px 20px;
+}
+.Container1{ 
+    margin-left: 5rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    border-radius: 10px;
+    background-color: rgb(250, 174, 53);
+    
+    width: 80rem;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+}
+.divContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Container1 img{
+    height: 20rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+
+}
+.section1{
+    display: flex;
+    align-items: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+article a{
+    color: rgb(252, 184, 112);
+    padding:10px 0 0 0 ;
+ 
+}
+article a:hover{
+    color: rgb(249, 130, 10);
+ 
+}
+#eje1{
+    background-color: rgb(255, 184, 69);
+    width: 100rem;
+    margin: 5rem;
+    margin-left: 8rem;
+
+}
+#eje2{
+    background-color: rgb(255, 184, 69);
+    width: 100rem;
+    margin: 5rem;
+    margin-left: 8rem;
+}
+#eje3{
+    background-color: rgb(255, 184, 69);
+    width: 100rem;
+    margin: 5rem;
+    margin-left: 8rem;
+}
+#eje4{
+    background-color: rgb(255, 184, 69);
+    width: 100rem;
+    margin: 5rem;
+    margin-left: 8rem;
+}
+#eje5{
+    background-color: rgb(255, 184, 69);
+    width: 100rem;
+    margin: 5rem;
+    margin-left: 8rem;
+}
+#textCard{
+    width: 50rem;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    padding-left: 50px;
+}
+#textCard2{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    padding-left: 50px;
+}
+footer{
+    background-color: rgb(255, 140, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
